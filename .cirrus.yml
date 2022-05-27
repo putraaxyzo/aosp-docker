@@ -3,7 +3,7 @@ env:
     CIRRUS_WORKING_DIR: "/tmp/ci"
     #13
 task:
-    name: Anyinglulu
+    name: syaaprjkt
     timeout_in: 10h
     container:
       image: aarunalr/aosp-build
