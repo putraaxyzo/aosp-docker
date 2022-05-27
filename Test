@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# snap
+snap list
+
+# stuff
+sudo apt-get clean
