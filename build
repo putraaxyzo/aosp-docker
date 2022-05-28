@@ -42,8 +42,8 @@ make bacon -j8
 
 
 # Upload rom zip file if succeed to build! Send notification to tg! And send shell to tg if build fails!
-if [ -e out/target/product/juice/Pixel.*.zip ]; then
-send_zip=$(up out/target/product/juice/Pixel.*.zip) && tg $id "Build Succeed!
+if [ -e out/target/product/juice/Aosp.*.zip ]; then
+send_zip=$(up out/target/product/juice/Aosp.*.zip) && tg $id "Build Succeed!
 $send_zip"
 fi
 ccache -s # Let's print ccache statistics finally
